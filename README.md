@@ -3,7 +3,7 @@
 
 ## 📋 Project Overview
 
-An end-to-end data engineering solution built on Databricks Free Edition for a merged FMCG company. This project demonstrates how to build a scalable data pipeline that consolidates data from two companies (Atlon - parent company and SportsBar - acquired startup) into a unified analytics platform.
+An end-to-end data engineering solution built on Databricks Free Edition for a merged FMCG company. This project demonstrates how to build a scalable data pipeline that consolidates data from two companies (Atlikon - parent company and SportsBar - acquired startup) into a unified analytics platform.
 
 ## 🎯 Business Problem
 
@@ -21,7 +21,7 @@ An end-to-end data engineering solution built on Databricks Free Edition for a m
 ```
 OLTP (SportsBar) → AWS S3 → Bronze → Silver → Gold → BI Dashboard
                                                   ↓
-OLTP (Atlon) → Existing Pipeline → Gold ←────────┘
+OLTP (Atlikon) → Existing Pipeline → Gold ←────────┘
 ```
 
 ### Medallion Architecture Layers
