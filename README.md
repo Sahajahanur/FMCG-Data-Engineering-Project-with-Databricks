@@ -7,7 +7,7 @@ An end-to-end data engineering solution built on Databricks Free Edition for a m
 
 ## 🎯 Business Problem
 
-**Atlon**, a leading sports equipment manufacturer, acquired **SportsBar**, a fast-growing energy bars and athletic nutrition startup. The acquisition created significant data challenges:
+**Atlikon**, a leading sports equipment manufacturer, acquired **SportsBar**, a fast-growing energy bars and athletic nutrition startup. The acquisition created significant data challenges:
 
 - Incompatible data formats between companies
 - Misaligned reporting cycles
