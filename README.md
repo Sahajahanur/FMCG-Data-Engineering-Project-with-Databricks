@@ -296,6 +296,8 @@ Created as part of a comprehensive data engineering learning project.
 
 Special thanks to Databricks for providing the free edition that makes this learning project accessible to everyone.
 
+Codebasics, Dhaval Patel and Hemanand Vadivel for the wonderful free course available in the YouTube. 
+
 ---
 
 ## 📧 Contact
