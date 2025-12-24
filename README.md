@@ -24,6 +24,9 @@ OLTP (SportsBar) → AWS S3 → Bronze → Silver → Gold → BI Dashboard
 OLTP (Atlikon) → Existing Pipeline → Gold ←────────┘
 ```
 
+<img width="1627" height="896" alt="image" src="https://github.com/user-attachments/assets/5b63d8dd-9eff-411f-9def-ca21d8cd9a30" />
+
+
 ### Medallion Architecture Layers
 
 - **Bronze Layer**: Raw data ingestion from S3
@@ -51,6 +54,9 @@ OLTP (Atlikon) → Existing Pipeline → Gold ←────────┘
 - `dim_products` - Product catalog with categories and variants
 - `dim_gross_price` - Pricing information by year/month
 - `dim_date` - Date dimension for time-based analysis
+
+ <img width="912" height="536" alt="image" src="https://github.com/user-attachments/assets/34f742c9-e855-4095-a311-510ab8b4943f" />
+ 
 
 ## 🚀 Key Features
 
@@ -112,6 +118,12 @@ aws s3 mb s3://your-bucket-name
 aws s3 cp parent_company/ s3://your-bucket-name/ --recursive
 aws s3 cp child_company/ s3://your-bucket-name/ --recursive
 ```
+
+<img width="1916" height="801" alt="image" src="https://github.com/user-attachments/assets/139a81fe-652e-4b81-88d8-7396c01b7914" />
+
+
+<img width="1918" height="808" alt="image" src="https://github.com/user-attachments/assets/f2afa132-ffce-4975-bbff-f7c1abc74e86" />
+
 
 ### Step 2: Databricks Configuration
 1. Create catalog and schemas:
@@ -206,6 +218,9 @@ LEFT JOIN fmcg.gold.dim_gross_price gp ON f.product_code = gp.product_code;
 - Monthly aggregation for parent company merge
 - Daily granularity for child company
 
+<img width="1917" height="858" alt="image" src="https://github.com/user-attachments/assets/6f650dc9-ac70-45d2-99e7-436bc513ee4a" />
+
+
 ## 📈 Sample Analytics Queries
 
 ```sql
@@ -237,6 +252,12 @@ Ask natural language questions:
 - "Show me total revenue by quarter"
 - "Which customers bought the most products?"
 
+<img width="1905" height="850" alt="image" src="https://github.com/user-attachments/assets/58294ca2-715e-4cf3-9e23-2ad5d54bcc27" />
+
+
+<img width="923" height="515" alt="image" src="https://github.com/user-attachments/assets/577cccd8-627f-46fc-9d97-d0302caf7f9f" />
+
+
 ## 📊 Dashboard Features
 
 - **Filters**: Year, Quarter, Month, Channel, Category
@@ -247,6 +268,9 @@ Ask natural language questions:
   - Monthly revenue trend
   - Top customers by quantity
   - Product variant analysis
+
+<img width="1890" height="867" alt="image" src="https://github.com/user-attachments/assets/9115893f-8195-4638-9e5f-8432b650cea1" />
+
 
 ## 🎓 Learning Outcomes
 
